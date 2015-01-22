@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64150EB31A708AEE00CD6F26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150EB21A708AEE00CD6F26 /* AppDelegate.m */; };
+		64150EB51A708AEE00CD6F26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150EB41A708AEE00CD6F26 /* main.m */; };
+		64150EB81A708AEE00CD6F26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150EB71A708AEE00CD6F26 /* ViewController.m */; };
+		64150EBA1A708AEE00CD6F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64150EB91A708AEE00CD6F26 /* Images.xcassets */; };
+		64150EBD1A708AEE00CD6F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64150EBB1A708AEE00CD6F26 /* Main.storyboard */; };
+		64150EC91A708AEE00CD6F26 /* Jazz_88_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64150EC81A708AEE00CD6F26 /* Jazz_88_3Tests.m */; };
+		64150ED31A7090A500CD6F26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64150ED21A7090A500CD6F26 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64150EC31A708AEE00CD6F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64150EA41A708AEE00CD6F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64150EAB1A708AEE00CD6F26;
+			remoteInfo = "Jazz 88.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64150EAC1A708AEE00CD6F26 /* Jazz 88.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jazz 88.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64150EB01A708AEE00CD6F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64150EB11A708AEE00CD6F26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64150EB21A708AEE00CD6F26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64150EB41A708AEE00CD6F26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64150EB61A708AEE00CD6F26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64150EB71A708AEE00CD6F26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64150EB91A708AEE00CD6F26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64150EBC1A708AEE00CD6F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64150EC21A708AEE00CD6F26 /* Jazz 88.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jazz 88.3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64150EC71A708AEE00CD6F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64150EC81A708AEE00CD6F26 /* Jazz_88_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jazz_88_3Tests.m; sourceTree = "<group>"; };
+		64150ED21A7090A500CD6F26 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64150EA91A708AEE00CD6F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64150ED31A7090A500CD6F26 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64150EBF1A708AEE00CD6F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64150EA31A708AEE00CD6F26 = {
+			isa = PBXGroup;
+			children = (
+				64150ED21A7090A500CD6F26 /* WebKit.framework */,
+				64150EAE1A708AEE00CD6F26 /* Jazz 88.3 */,
+				64150EC51A708AEE00CD6F26 /* Jazz 88.3Tests */,
+				64150EAD1A708AEE00CD6F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64150EAD1A708AEE00CD6F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64150EAC1A708AEE00CD6F26 /* Jazz 88.3.app */,
+				64150EC21A708AEE00CD6F26 /* Jazz 88.3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64150EAE1A708AEE00CD6F26 /* Jazz 88.3 */ = {
+			isa = PBXGroup;
+			children = (
+				64150EB11A708AEE00CD6F26 /* AppDelegate.h */,
+				64150EB21A708AEE00CD6F26 /* AppDelegate.m */,
+				64150EB61A708AEE00CD6F26 /* ViewController.h */,
+				64150EB71A708AEE00CD6F26 /* ViewController.m */,
+				64150EB91A708AEE00CD6F26 /* Images.xcassets */,
+				64150EBB1A708AEE00CD6F26 /* Main.storyboard */,
+				64150EAF1A708AEE00CD6F26 /* Supporting Files */,
+			);
+			path = "Jazz 88.3";
+			sourceTree = "<group>";
+		};
+		64150EAF1A708AEE00CD6F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64150EB01A708AEE00CD6F26 /* Info.plist */,
+				64150EB41A708AEE00CD6F26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64150EC51A708AEE00CD6F26 /* Jazz 88.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64150EC81A708AEE00CD6F26 /* Jazz_88_3Tests.m */,
+				64150EC61A708AEE00CD6F26 /* Supporting Files */,
+			);
+			path = "Jazz 88.3Tests";
+			sourceTree = "<group>";
+		};
+		64150EC61A708AEE00CD6F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64150EC71A708AEE00CD6F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64150EAB1A708AEE00CD6F26 /* Jazz 88.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64150ECC1A708AEE00CD6F26 /* Build configuration list for PBXNativeTarget "Jazz 88.3" */;
+			buildPhases = (
+				64150EA81A708AEE00CD6F26 /* Sources */,
+				64150EA91A708AEE00CD6F26 /* Frameworks */,
+				64150EAA1A708AEE00CD6F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jazz 88.3";
+			productName = "Jazz 88.3";
+			productReference = 64150EAC1A708AEE00CD6F26 /* Jazz 88.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64150EC11A708AEE00CD6F26 /* Jazz 88.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64150ECF1A708AEE00CD6F26 /* Build configuration list for PBXNativeTarget "Jazz 88.3Tests" */;
+			buildPhases = (
+				64150EBE1A708AEE00CD6F26 /* Sources */,
+				64150EBF1A708AEE00CD6F26 /* Frameworks */,
+				64150EC01A708AEE00CD6F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64150EC41A708AEE00CD6F26 /* PBXTargetDependency */,
+			);
+			name = "Jazz 88.3Tests";
+			productName = "Jazz 88.3Tests";
+			productReference = 64150EC21A708AEE00CD6F26 /* Jazz 88.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64150EA41A708AEE00CD6F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Neal Clark";
+				TargetAttributes = {
+					64150EAB1A708AEE00CD6F26 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					64150EC11A708AEE00CD6F26 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 64150EAB1A708AEE00CD6F26;
+					};
+				};
+			};
+			buildConfigurationList = 64150EA71A708AEE00CD6F26 /* Build configuration list for PBXProject "Jazz 88.3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64150EA31A708AEE00CD6F26;
+			productRefGroup = 64150EAD1A708AEE00CD6F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64150EAB1A708AEE00CD6F26 /* Jazz 88.3 */,
+				64150EC11A708AEE00CD6F26 /* Jazz 88.3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64150EAA1A708AEE00CD6F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64150EBA1A708AEE00CD6F26 /* Images.xcassets in Resources */,
+				64150EBD1A708AEE00CD6F26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64150EC01A708AEE00CD6F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64150EA81A708AEE00CD6F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64150EB81A708AEE00CD6F26 /* ViewController.m in Sources */,
+				64150EB51A708AEE00CD6F26 /* main.m in Sources */,
+				64150EB31A708AEE00CD6F26 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64150EBE1A708AEE00CD6F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64150EC91A708AEE00CD6F26 /* Jazz_88_3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64150EC41A708AEE00CD6F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64150EAB1A708AEE00CD6F26 /* Jazz 88.3 */;
+			targetProxy = 64150EC31A708AEE00CD6F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64150EBB1A708AEE00CD6F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64150EBC1A708AEE00CD6F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64150ECA1A708AEE00CD6F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64150ECB1A708AEE00CD6F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64150ECD1A708AEE00CD6F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Jazz 88.3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64150ECE1A708AEE00CD6F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Jazz 88.3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64150ED01A708AEE00CD6F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jazz 88.3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jazz 88.3.app/Contents/MacOS/Jazz 88.3";
+			};
+			name = Debug;
+		};
+		64150ED11A708AEE00CD6F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jazz 88.3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jazz 88.3.app/Contents/MacOS/Jazz 88.3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64150EA71A708AEE00CD6F26 /* Build configuration list for PBXProject "Jazz 88.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64150ECA1A708AEE00CD6F26 /* Debug */,
+				64150ECB1A708AEE00CD6F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64150ECC1A708AEE00CD6F26 /* Build configuration list for PBXNativeTarget "Jazz 88.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64150ECD1A708AEE00CD6F26 /* Debug */,
+				64150ECE1A708AEE00CD6F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64150ECF1A708AEE00CD6F26 /* Build configuration list for PBXNativeTarget "Jazz 88.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64150ED01A708AEE00CD6F26 /* Debug */,
+				64150ED11A708AEE00CD6F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64150EA41A708AEE00CD6F26 /* Project object */;
+}
